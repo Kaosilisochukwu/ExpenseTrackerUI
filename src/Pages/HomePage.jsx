@@ -9,7 +9,7 @@ const HomePage = () => {
       <NavBar />
       <div className = "home-body">
         <div>
-          <p className="body-head">Welcome to Expense Traker</p>
+          <p className="body-head">Welcome to Expense Tracker</p>
           <p>Tracks all your expeses</p>
         </div>
         <div className="btn-div">
@@ -41,7 +41,7 @@ export default HomePage
 const HomePageStyle = styled.div`
   position: relative;
   width: 100%;
-  background-color: rgba(4, 59, 255, 0.48);
+  background-color: rgba(10, 10, 10, 0.48);
   min-height: 100vh;
   color: white;
   display: flex;
@@ -89,7 +89,8 @@ img{
 }
 .sign-up{
   margin-right: .5rem;
-  background-color: yellow;
+  color: white;
+  background-color: black;
 }
 .last{
   margin-bottom: 3rem;
