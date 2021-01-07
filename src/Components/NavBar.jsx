@@ -10,6 +10,8 @@ const NavBar = () => {
         <li>Sign In</li>
         <li>Expenses</li>
         <li>Profile</li>
+        <li>Sign Out</li>
+        <li>Add Expense</li>
       </ul>
     </HeaderStyle>
   )
